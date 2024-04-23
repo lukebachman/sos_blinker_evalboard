@@ -1,0 +1,20 @@
+// launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "View Waveform HDL",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "C:/Microchip/Libero_SoC_v2024.1/ModelSimPro/win32acoem/vsim.exe",
+            "runtimeArgs": [
+                "-do",
+                "C:/Verilog_Projects/sos_blinker_evalboard/simulation/simulate.do",
+            ],
+            "cwd": "C:/Verilog_Projects/sos_blinker_evalboard/simulation",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "stopOnEntry": false
+        }
+    ]
+}

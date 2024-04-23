@@ -1,0 +1,1509 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2-1, Build 179R, Jun 27 2023
+#install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: CAG-LT-C77522
+
+# Wed Mar 27 15:37:41 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v" (library work)
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":21:13:21:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":61:13:61:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":88:13:88:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":118:13:118:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":168:13:168:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":213:13:213:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":232:13:232:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":281:13:281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":335:13:335:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":657:13:657:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":761:13:761:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":795:13:795:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1059:13:1059:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1369:13:1369:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1396:13:1396:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1441:13:1441:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1474:13:1474:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1492:13:1492:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1518:13:1518:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1559:13:1559:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1581:13:1581:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1599:13:1599:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1616:13:1616:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1635:13:1635:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1652:13:1652:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1681:13:1681:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1712:13:1712:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":1802:13:1802:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2026:13:2026:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2187:13:2187:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2203:13:2203:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2219:13:2219:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2235:13:2235:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2267:13:2267:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":2648:13:2648:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3661:13:3661:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3732:13:3732:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3861:13:3861:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3879:13:3879:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3896:13:3896:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3911:13:3911:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3926:13:3926:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":3953:13:3953:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4065:13:4065:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4096:13:4096:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4142:13:4142:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4253:13:4253:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4437:13:4437:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4478:13:4478:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4504:13:4504:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4521:13:4521:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":4598:13:4598:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":5362:13:5362:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":6172:13:6172:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":6281:13:6281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":6319:13:6319:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":6392:13:6392:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":7281:13:7281:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":8338:13:8338:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":9297:13:9297:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10033:13:10033:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10748:13:10748:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10782:13:10782:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10818:13:10818:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10865:13:10865:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":10899:13:10899:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":11765:13:11765:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":12808:13:12808:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":12820:15:12820:27|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":12831:13:12831:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"C:\Verilog_Projects\sos_blinker_evalboard\component\polarfire_syn_comps.v":12844:13:12844:25|User defined pragma syn_black_box detected
+
+@I::"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v" (library work)
+Verilog syntax check successful!
+Selecting top level module sos_blinker
+@N: CG364 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":5:7:5:17|Synthesizing module sos_blinker in library work.
+@W: CG532 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":33:0:33:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on sos_blinker .......
+@W: CL118 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":82:7:82:10|Latch generated from always block for signal led; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on sos_blinker (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on sos_blinker .......
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Optimizing register bit counter[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Pruning register bits 25 to 3 of counter[25:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on sos_blinker (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 97MB peak: 98MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 27 15:37:42 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 27 15:37:42 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 24MB peak: 25MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 27 15:37:42 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar 27 15:37:43 2024
+
+###########################################################]
+Premap Report
+
+# Wed Mar 27 15:37:44 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 126MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 139MB)
+
+Reading constraint file: C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker\synthesis.fdc
+@L: C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker_scck.rpt 
+See clock summary report "C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 139MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 139MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":82:7:82:10|User-specified initial value defined for instance led is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|User-specified initial value defined for instance i[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|User-specified initial value defined for instance counter[2:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|User-specified initial value defined for instance state[2:0] is being ignored due to limitations in architecture. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 172MB)
+
+@N: FP130 |Promoting Net clk on CLKINT  I_1 
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist sos_blinker 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 173MB peak: 173MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                   Requested     Requested     Clock        Clock          Clock
+Level     Clock                                   Frequency     Period        Type         Group          Load 
+---------------------------------------------------------------------------------------------------------------
+0 -       sos_blinker|clk                         100.0 MHz     10.000        inferred     (multiple)     38   
+                                                                                                               
+0 -       sos_blinker|un1_led4_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+===============================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                        Clock     Source                Clock Pin        Non-clock Pin     Non-clock Pin       
+Clock                                   Load      Pin                   Seq Example      Seq Example       Comb Example        
+-------------------------------------------------------------------------------------------------------------------------------
+sos_blinker|clk                         38        clk(port)             state[2:0].C     -                 I_1.A(CLKINT)       
+                                                                                                                               
+sos_blinker|un1_led4_inferred_clock     1         un1_led4.OUT(and)     led.C            -                 un1_led4_1.I[0](inv)
+===============================================================================================================================
+
+@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Found inferred clock sos_blinker|clk which controls 38 sequential elements including i[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":82:7:82:10|Found inferred clock sos_blinker|un1_led4_inferred_clock which controls 1 sequential elements including led. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 174MB peak: 174MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 176MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar 27 15:37:45 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Mar 27 15:37:45 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 139MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 139MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 139MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 169MB peak: 169MB)
+
+@N: BZ173 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":73:17:73:31|ROM state_3[1:0] (in view: work.sos_blinker(verilog)) mapped in logic.
+@N: BZ173 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":73:17:73:31|ROM state_3[1:0] (in view: work.sos_blinker(verilog)) mapped in logic.
+@N: MO106 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":73:17:73:31|Found ROM state_3[1:0] (in view: work.sos_blinker(verilog)) with 21 words by 2 bits.
+@N: MF237 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":72:14:72:24|Generating a type srem remainder 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 176MB)
+
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[31] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[15] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[16] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[17] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[18] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[19] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[20] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[21] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[23] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[25] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[27] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[5] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[7] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[9] because it is equivalent to instance i[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[14] because it is equivalent to instance i[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[13] because it is equivalent to instance i[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[12] because it is equivalent to instance i[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[11] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[8] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[6] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[28] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[26] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[24] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[22] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[30] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Removing instance i[29] because it is equivalent to instance i[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 176MB peak: 177MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 177MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:01s; Memory used current: 177MB peak: 178MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 177MB peak: 178MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 178MB peak: 178MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		    -7.78ns		 186 /        12
+   2		0h:00m:02s		    -7.78ns		 186 /        12
+   3		0h:00m:02s		    -7.78ns		 186 /        12
+@N: FX271 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":65:0:65:5|Replicating instance i[0] (in view: work.sos_blinker(verilog)) with 10 loads 1 time to improve timing.
+Timing driven replication report
+Added 1 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   4		0h:00m:02s		    -7.00ns		 196 /        13
+   5		0h:00m:02s		    -6.42ns		 196 /        13
+
+
+   6		0h:00m:02s		    -6.38ns		 196 /        13
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 180MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 180MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 181MB)
+
+Writing Analyst data base C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 179MB peak: 181MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:02s; Memory used current: 180MB peak: 181MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 179MB peak: 181MB)
+
+@W: MT420 |Found inferred clock sos_blinker|clk with period 10.00ns. Please declare a user-defined clock on port clk.
+@W: MT420 |Found inferred clock sos_blinker|un1_led4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net un1_led4.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Mar 27 15:37:50 2024
+#
+
+
+Top view:               sos_blinker
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.382
+
+                                        Requested     Estimated     Requested     Estimated                Clock        Clock     
+Starting Clock                          Frequency     Frequency     Period        Period        Slack      Type         Group     
+----------------------------------------------------------------------------------------------------------------------------------
+sos_blinker|clk                         100.0 MHz     87.9 MHz      10.000        11.382        -1.382     inferred     (multiple)
+sos_blinker|un1_led4_inferred_clock     100.0 MHz     NA            10.000        NA            NA         inferred     (multiple)
+==================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Starting         Ending                               |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------
+sos_blinker|clk  sos_blinker|clk                      |  10.000      -1.382  |  No paths    -      |  No paths    -      |  No paths    -    
+sos_blinker|clk  sos_blinker|un1_led4_inferred_clock  |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+=============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sos_blinker|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                            Arrival           
+Instance       Reference           Type     Pin     Net            Time        Slack 
+               Clock                                                                 
+-------------------------------------------------------------------------------------
+i[4]           sos_blinker|clk     SLE      Q       i[4]           0.218       -1.382
+i[3]           sos_blinker|clk     SLE      Q       i[3]           0.218       -1.367
+i[10]          sos_blinker|clk     SLE      Q       i[5]           0.218       -1.318
+i[2]           sos_blinker|clk     SLE      Q       i[2]           0.218       -1.295
+i[1]           sos_blinker|clk     SLE      Q       i[1]           0.218       -1.230
+i_fast[0]      sos_blinker|clk     SLE      Q       i_fast[0]      0.218       -0.826
+i[0]           sos_blinker|clk     SLE      Q       i[0]           0.218       -0.664
+counter[0]     sos_blinker|clk     SLE      Q       CO0_0          0.218       8.035 
+counter[1]     sos_blinker|clk     SLE      Q       counter[1]     0.218       8.096 
+state[0]       sos_blinker|clk     SLE      Q       state[0]       0.201       8.265 
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+               Starting                                              Required           
+Instance       Reference           Type     Pin     Net              Time         Slack 
+               Clock                                                                    
+----------------------------------------------------------------------------------------
+i[3]           sos_blinker|clk     SLE      D       i_2[3]           10.000       -1.382
+i[10]          sos_blinker|clk     SLE      D       i_2[5]           10.000       -1.382
+i[1]           sos_blinker|clk     SLE      D       i_2[1]           10.000       -1.238
+i[4]           sos_blinker|clk     SLE      D       i_2[4]           10.000       -1.238
+i[2]           sos_blinker|clk     SLE      D       i_2[2]           10.000       -1.201
+i[0]           sos_blinker|clk     SLE      D       i_2[0]           10.000       0.007 
+i_fast[0]      sos_blinker|clk     SLE      D       i_2_fast[0]      10.000       0.007 
+counter[2]     sos_blinker|clk     SLE      D       counter_3[2]     10.000       8.035 
+counter[0]     sos_blinker|clk     SLE      D       counter_3[0]     10.000       8.121 
+counter[1]     sos_blinker|clk     SLE      D       counter_3[1]     10.000       8.121 
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      11.382
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.382
+
+    Number of logic level(s):                42
+    Starting point:                          i[4] / Q
+    Ending point:                            i[10] / D
+    The start point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival      No. of    
+Name                                                  Type     Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+i[4]                                                  SLE      Q        Out     0.218     0.218 r      -         
+i[4]                                                  Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     C        In      -         0.813 r      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     Y        Out     0.132     0.945 f      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     A        In      -         1.063 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     FCO      Out     0.285     1.348 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCI      In      -         1.348 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCO      Out     0.008     1.356 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCI      In      -         1.356 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCO      Out     0.008     1.364 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCI      In      -         1.364 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCO      Out     0.008     1.372 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCI      In      -         1.372 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCO      Out     0.008     1.380 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCI      In      -         1.380 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCO      Out     0.008     1.388 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     FCI      In      -         1.388 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     S        Out     0.300     1.688 r      -         
+i_2.if_generate_plus\.mult1_temp_b_28[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     B        In      -         2.282 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     Y        Out     0.088     2.370 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     C        In      -         2.488 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     FCO      Out     0.393     2.881 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCI      In      -         2.881 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCO      Out     0.008     2.889 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCI      In      -         2.889 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCO      Out     0.008     2.897 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCI      In      -         2.897 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCO      Out     0.008     2.905 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCI      In      -         2.905 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCO      Out     0.008     2.913 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     FCI      In      -         2.913 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     S        Out     0.300     3.213 r      -         
+i_2.if_generate_plus\.mult1_temp_b_29[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     A        In      -         3.808 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     Y        Out     0.051     3.858 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     C        In      -         3.976 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     FCO      Out     0.393     4.370 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCI      In      -         4.370 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCO      Out     0.008     4.378 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCI      In      -         4.378 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCO      Out     0.008     4.386 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCI      In      -         4.386 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCO      Out     0.008     4.394 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCI      In      -         4.394 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCO      Out     0.008     4.402 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     FCI      In      -         4.402 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     S        Out     0.300     4.702 r      -         
+i_2.if_generate_plus\.mult1_temp_b_30[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     C        In      -         5.296 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     Y        Out     0.148     5.444 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     C        In      -         5.562 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     FCO      Out     0.393     5.955 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCI      In      -         5.955 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCO      Out     0.008     5.963 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCI      In      -         5.963 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCO      Out     0.008     5.971 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCI      In      -         5.971 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCO      Out     0.008     5.979 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCI      In      -         5.979 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCO      Out     0.008     5.987 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     FCI      In      -         5.987 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     S        Out     0.300     6.287 r      -         
+i_2.if_generate_plus\.mult1_temp_b_31[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     C        In      -         6.882 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     Y        Out     0.148     7.030 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     C        In      -         7.148 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     FCO      Out     0.393     7.541 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCI      In      -         7.541 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCO      Out     0.008     7.549 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCI      In      -         7.549 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCO      Out     0.008     7.557 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCI      In      -         7.557 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCO      Out     0.008     7.565 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCI      In      -         7.565 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCO      Out     0.008     7.573 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     FCI      In      -         7.573 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     S        Out     0.300     7.873 r      -         
+i_2.if_generate_plus\.mult1_temp_b_1[2]               Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     B        In      -         8.467 r      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     FCO      Out     0.328     8.795 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     FCI      In      -         8.795 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     S        Out     0.300     9.095 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_ac0_4        Net      -        -       0.609     -            7         
+i_2.g0_7                                              CFG4     D        In      -         9.704 f      -         
+i_2.g0_7                                              CFG4     Y        Out     0.192     9.896 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_c4_1_0_0     Net      -        -       0.124     -            2         
+i_2.g0_2                                              CFG4     D        In      -         10.020 f     -         
+i_2.g0_2                                              CFG4     Y        Out     0.232     10.252 r     -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_0_0_1[5]     Net      -        -       0.118     -            1         
+i_2.g0_0                                              CFG4     B        In      -         10.370 r     -         
+i_2.g0_0                                              CFG4     Y        Out     0.083     10.453 r     -         
+i_2.N_17_i                                            Net      -        -       0.579     -            5         
+i_2.g0                                                CFG4     D        In      -         11.032 r     -         
+i_2.g0                                                CFG4     Y        Out     0.232     11.264 r     -         
+i_2[5]                                                Net      -        -       0.118     -            1         
+i[10]                                                 SLE      D        In      -         11.382 r     -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.382 is 5.677(49.9%) logic and 5.705(50.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      11.382
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.382
+
+    Number of logic level(s):                42
+    Starting point:                          i[4] / Q
+    Ending point:                            i[3] / D
+    The start point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival      No. of    
+Name                                                  Type     Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+i[4]                                                  SLE      Q        Out     0.218     0.218 r      -         
+i[4]                                                  Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     C        In      -         0.813 r      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     Y        Out     0.132     0.945 f      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     A        In      -         1.063 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     FCO      Out     0.285     1.348 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCI      In      -         1.348 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCO      Out     0.008     1.356 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCI      In      -         1.356 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCO      Out     0.008     1.364 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCI      In      -         1.364 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCO      Out     0.008     1.372 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCI      In      -         1.372 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCO      Out     0.008     1.380 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCI      In      -         1.380 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCO      Out     0.008     1.388 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     FCI      In      -         1.388 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     S        Out     0.300     1.688 r      -         
+i_2.if_generate_plus\.mult1_temp_b_28[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     B        In      -         2.282 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     Y        Out     0.088     2.370 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     C        In      -         2.488 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     FCO      Out     0.393     2.881 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCI      In      -         2.881 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCO      Out     0.008     2.889 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCI      In      -         2.889 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCO      Out     0.008     2.897 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCI      In      -         2.897 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCO      Out     0.008     2.905 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCI      In      -         2.905 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCO      Out     0.008     2.913 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     FCI      In      -         2.913 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     S        Out     0.300     3.213 r      -         
+i_2.if_generate_plus\.mult1_temp_b_29[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     A        In      -         3.808 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     Y        Out     0.051     3.858 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     C        In      -         3.976 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     FCO      Out     0.393     4.370 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCI      In      -         4.370 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCO      Out     0.008     4.378 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCI      In      -         4.378 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCO      Out     0.008     4.386 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCI      In      -         4.386 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCO      Out     0.008     4.394 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCI      In      -         4.394 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCO      Out     0.008     4.402 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     FCI      In      -         4.402 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     S        Out     0.300     4.702 r      -         
+i_2.if_generate_plus\.mult1_temp_b_30[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     C        In      -         5.296 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     Y        Out     0.148     5.444 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     C        In      -         5.562 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     FCO      Out     0.393     5.955 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCI      In      -         5.955 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCO      Out     0.008     5.963 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCI      In      -         5.963 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCO      Out     0.008     5.971 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCI      In      -         5.971 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCO      Out     0.008     5.979 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCI      In      -         5.979 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCO      Out     0.008     5.987 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     FCI      In      -         5.987 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     S        Out     0.300     6.287 r      -         
+i_2.if_generate_plus\.mult1_temp_b_31[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     C        In      -         6.882 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     Y        Out     0.148     7.030 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     C        In      -         7.148 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     FCO      Out     0.393     7.541 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCI      In      -         7.541 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCO      Out     0.008     7.549 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCI      In      -         7.549 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCO      Out     0.008     7.557 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCI      In      -         7.557 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCO      Out     0.008     7.565 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCI      In      -         7.565 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCO      Out     0.008     7.573 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     FCI      In      -         7.573 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     S        Out     0.300     7.873 r      -         
+i_2.if_generate_plus\.mult1_temp_b_1[2]               Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     B        In      -         8.467 r      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     FCO      Out     0.328     8.795 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     FCI      In      -         8.795 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     S        Out     0.300     9.095 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_ac0_4        Net      -        -       0.609     -            7         
+i_2.g0_7                                              CFG4     D        In      -         9.704 f      -         
+i_2.g0_7                                              CFG4     Y        Out     0.192     9.896 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_c4_1_0_0     Net      -        -       0.124     -            2         
+i_2.g0_2                                              CFG4     D        In      -         10.020 f     -         
+i_2.g0_2                                              CFG4     Y        Out     0.232     10.252 r     -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_0_0_1[5]     Net      -        -       0.118     -            1         
+i_2.g0_0                                              CFG4     B        In      -         10.370 r     -         
+i_2.g0_0                                              CFG4     Y        Out     0.083     10.453 r     -         
+i_2.N_17_i                                            Net      -        -       0.579     -            5         
+i_2.g0_8                                              CFG4     D        In      -         11.032 r     -         
+i_2.g0_8                                              CFG4     Y        Out     0.232     11.264 r     -         
+i_2[3]                                                Net      -        -       0.118     -            1         
+i[3]                                                  SLE      D        In      -         11.382 r     -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.382 is 5.677(49.9%) logic and 5.705(50.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      11.367
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.367
+
+    Number of logic level(s):                41
+    Starting point:                          i[3] / Q
+    Ending point:                            i[10] / D
+    The start point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival      No. of    
+Name                                                  Type     Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+i[3]                                                  SLE      Q        Out     0.218     0.218 r      -         
+i[3]                                                  Net      -        -       0.623     -            8         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     D        In      -         0.841 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     FCO      Out     0.492     1.333 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCI      In      -         1.333 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCO      Out     0.008     1.341 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCI      In      -         1.341 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCO      Out     0.008     1.349 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCI      In      -         1.349 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCO      Out     0.008     1.357 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCI      In      -         1.357 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCO      Out     0.008     1.365 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCI      In      -         1.365 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCO      Out     0.008     1.373 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     FCI      In      -         1.373 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     S        Out     0.300     1.673 r      -         
+i_2.if_generate_plus\.mult1_temp_b_28[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     B        In      -         2.268 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     Y        Out     0.088     2.355 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     C        In      -         2.473 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     FCO      Out     0.393     2.867 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCI      In      -         2.867 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCO      Out     0.008     2.875 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCI      In      -         2.875 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCO      Out     0.008     2.883 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCI      In      -         2.883 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCO      Out     0.008     2.891 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCI      In      -         2.891 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCO      Out     0.008     2.899 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     FCI      In      -         2.899 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     S        Out     0.300     3.199 r      -         
+i_2.if_generate_plus\.mult1_temp_b_29[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     A        In      -         3.793 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     Y        Out     0.051     3.844 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     C        In      -         3.962 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     FCO      Out     0.393     4.355 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCI      In      -         4.355 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCO      Out     0.008     4.363 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCI      In      -         4.363 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCO      Out     0.008     4.371 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCI      In      -         4.371 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCO      Out     0.008     4.379 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCI      In      -         4.379 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCO      Out     0.008     4.387 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     FCI      In      -         4.387 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     S        Out     0.300     4.687 r      -         
+i_2.if_generate_plus\.mult1_temp_b_30[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     C        In      -         5.282 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     Y        Out     0.148     5.429 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     C        In      -         5.548 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     FCO      Out     0.393     5.941 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCI      In      -         5.941 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCO      Out     0.008     5.949 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCI      In      -         5.949 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCO      Out     0.008     5.957 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCI      In      -         5.957 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCO      Out     0.008     5.965 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCI      In      -         5.965 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCO      Out     0.008     5.973 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     FCI      In      -         5.973 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     S        Out     0.300     6.273 r      -         
+i_2.if_generate_plus\.mult1_temp_b_31[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     C        In      -         6.867 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     Y        Out     0.148     7.015 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     C        In      -         7.133 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     FCO      Out     0.393     7.527 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCI      In      -         7.527 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCO      Out     0.008     7.535 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCI      In      -         7.535 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCO      Out     0.008     7.543 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCI      In      -         7.543 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCO      Out     0.008     7.551 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCI      In      -         7.551 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCO      Out     0.008     7.559 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     FCI      In      -         7.559 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     S        Out     0.300     7.859 r      -         
+i_2.if_generate_plus\.mult1_temp_b_1[2]               Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     B        In      -         8.453 r      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     FCO      Out     0.328     8.781 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     FCI      In      -         8.781 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     S        Out     0.300     9.081 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_ac0_4        Net      -        -       0.609     -            7         
+i_2.g0_7                                              CFG4     D        In      -         9.690 f      -         
+i_2.g0_7                                              CFG4     Y        Out     0.192     9.882 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_c4_1_0_0     Net      -        -       0.124     -            2         
+i_2.g0_2                                              CFG4     D        In      -         10.006 f     -         
+i_2.g0_2                                              CFG4     Y        Out     0.232     10.238 r     -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_0_0_1[5]     Net      -        -       0.118     -            1         
+i_2.g0_0                                              CFG4     B        In      -         10.355 r     -         
+i_2.g0_0                                              CFG4     Y        Out     0.083     10.438 r     -         
+i_2.N_17_i                                            Net      -        -       0.579     -            5         
+i_2.g0                                                CFG4     D        In      -         11.018 r     -         
+i_2.g0                                                CFG4     Y        Out     0.232     11.249 r     -         
+i_2[5]                                                Net      -        -       0.118     -            1         
+i[10]                                                 SLE      D        In      -         11.367 r     -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.367 is 5.752(50.6%) logic and 5.615(49.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      11.367
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.367
+
+    Number of logic level(s):                41
+    Starting point:                          i[3] / Q
+    Ending point:                            i[3] / D
+    The start point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival      No. of    
+Name                                                  Type     Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+i[3]                                                  SLE      Q        Out     0.218     0.218 r      -         
+i[3]                                                  Net      -        -       0.623     -            8         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     D        In      -         0.841 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     FCO      Out     0.492     1.333 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCI      In      -         1.333 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCO      Out     0.008     1.341 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCI      In      -         1.341 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCO      Out     0.008     1.349 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCI      In      -         1.349 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCO      Out     0.008     1.357 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCI      In      -         1.357 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCO      Out     0.008     1.365 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCI      In      -         1.365 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCO      Out     0.008     1.373 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     FCI      In      -         1.373 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     S        Out     0.300     1.673 r      -         
+i_2.if_generate_plus\.mult1_temp_b_28[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     B        In      -         2.268 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     Y        Out     0.088     2.355 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     C        In      -         2.473 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     FCO      Out     0.393     2.867 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCI      In      -         2.867 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCO      Out     0.008     2.875 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCI      In      -         2.875 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCO      Out     0.008     2.883 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCI      In      -         2.883 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCO      Out     0.008     2.891 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCI      In      -         2.891 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCO      Out     0.008     2.899 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     FCI      In      -         2.899 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     S        Out     0.300     3.199 r      -         
+i_2.if_generate_plus\.mult1_temp_b_29[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     A        In      -         3.793 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     Y        Out     0.051     3.844 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     C        In      -         3.962 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     FCO      Out     0.393     4.355 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCI      In      -         4.355 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCO      Out     0.008     4.363 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCI      In      -         4.363 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCO      Out     0.008     4.371 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCI      In      -         4.371 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCO      Out     0.008     4.379 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCI      In      -         4.379 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCO      Out     0.008     4.387 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     FCI      In      -         4.387 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     S        Out     0.300     4.687 r      -         
+i_2.if_generate_plus\.mult1_temp_b_30[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     C        In      -         5.282 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     Y        Out     0.148     5.429 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     C        In      -         5.548 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     FCO      Out     0.393     5.941 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCI      In      -         5.941 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCO      Out     0.008     5.949 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCI      In      -         5.949 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCO      Out     0.008     5.957 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCI      In      -         5.957 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCO      Out     0.008     5.965 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCI      In      -         5.965 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCO      Out     0.008     5.973 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     FCI      In      -         5.973 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     S        Out     0.300     6.273 r      -         
+i_2.if_generate_plus\.mult1_temp_b_31[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     C        In      -         6.867 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     Y        Out     0.148     7.015 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     C        In      -         7.133 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     FCO      Out     0.393     7.527 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCI      In      -         7.527 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCO      Out     0.008     7.535 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCI      In      -         7.535 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCO      Out     0.008     7.543 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCI      In      -         7.543 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCO      Out     0.008     7.551 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCI      In      -         7.551 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCO      Out     0.008     7.559 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     FCI      In      -         7.559 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     S        Out     0.300     7.859 r      -         
+i_2.if_generate_plus\.mult1_temp_b_1[2]               Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     B        In      -         8.453 r      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     FCO      Out     0.328     8.781 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     FCI      In      -         8.781 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     S        Out     0.300     9.081 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_ac0_4        Net      -        -       0.609     -            7         
+i_2.g0_7                                              CFG4     D        In      -         9.690 f      -         
+i_2.g0_7                                              CFG4     Y        Out     0.192     9.882 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_c4_1_0_0     Net      -        -       0.124     -            2         
+i_2.g0_2                                              CFG4     D        In      -         10.006 f     -         
+i_2.g0_2                                              CFG4     Y        Out     0.232     10.238 r     -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_0_0_1[5]     Net      -        -       0.118     -            1         
+i_2.g0_0                                              CFG4     B        In      -         10.355 r     -         
+i_2.g0_0                                              CFG4     Y        Out     0.083     10.438 r     -         
+i_2.N_17_i                                            Net      -        -       0.579     -            5         
+i_2.g0_8                                              CFG4     D        In      -         11.018 r     -         
+i_2.g0_8                                              CFG4     Y        Out     0.232     11.249 r     -         
+i_2[3]                                                Net      -        -       0.118     -            1         
+i[3]                                                  SLE      D        In      -         11.367 r     -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.367 is 5.752(50.6%) logic and 5.615(49.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      11.318
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.318
+
+    Number of logic level(s):                42
+    Starting point:                          i[10] / Q
+    Ending point:                            i[10] / D
+    The start point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            sos_blinker|clk [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                 Pin      Pin               Arrival      No. of    
+Name                                                  Type     Name     Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+i[10]                                                 SLE      Q        Out     0.218     0.218 r      -         
+i[5]                                                  Net      -        -       0.579     -            5         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     B        In      -         0.797 r      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          CFG3     Y        Out     0.083     0.880 r      -         
+i_2.if_generate_plus\.mult1_inf_abs1_i_sx[5]          Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     A        In      -         0.998 r      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           ARI1     FCO      Out     0.285     1.283 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_0           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCI      In      -         1.283 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           ARI1     FCO      Out     0.008     1.291 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCI      In      -         1.291 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           ARI1     FCO      Out     0.008     1.299 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCI      In      -         1.299 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           ARI1     FCO      Out     0.008     1.307 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCI      In      -         1.307 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           ARI1     FCO      Out     0.008     1.315 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCI      In      -         1.315 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           ARI1     FCO      Out     0.008     1.323 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     FCI      In      -         1.323 f      -         
+i_2.if_generate_plus\.mult1_un185_sum_s_6             ARI1     S        Out     0.300     1.623 r      -         
+i_2.if_generate_plus\.mult1_temp_b_28[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     B        In      -         2.218 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           CFG3     Y        Out     0.088     2.305 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     C        In      -         2.423 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           ARI1     FCO      Out     0.393     2.817 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCI      In      -         2.817 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           ARI1     FCO      Out     0.008     2.825 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCI      In      -         2.825 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           ARI1     FCO      Out     0.008     2.833 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCI      In      -         2.833 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           ARI1     FCO      Out     0.008     2.841 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCI      In      -         2.841 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           ARI1     FCO      Out     0.008     2.849 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     FCI      In      -         2.849 r      -         
+i_2.if_generate_plus\.mult1_un192_sum_s_6             ARI1     S        Out     0.300     3.149 r      -         
+i_2.if_generate_plus\.mult1_temp_b_29[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     A        In      -         3.743 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           CFG3     Y        Out     0.051     3.794 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     C        In      -         3.912 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           ARI1     FCO      Out     0.393     4.305 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCI      In      -         4.305 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           ARI1     FCO      Out     0.008     4.313 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCI      In      -         4.313 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           ARI1     FCO      Out     0.008     4.321 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCI      In      -         4.321 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           ARI1     FCO      Out     0.008     4.329 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCI      In      -         4.329 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           ARI1     FCO      Out     0.008     4.337 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     FCI      In      -         4.337 r      -         
+i_2.if_generate_plus\.mult1_un199_sum_s_6             ARI1     S        Out     0.300     4.637 r      -         
+i_2.if_generate_plus\.mult1_temp_b_30[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     C        In      -         5.232 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           CFG4     Y        Out     0.148     5.380 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     C        In      -         5.498 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           ARI1     FCO      Out     0.393     5.891 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCI      In      -         5.891 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           ARI1     FCO      Out     0.008     5.899 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCI      In      -         5.899 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           ARI1     FCO      Out     0.008     5.907 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCI      In      -         5.907 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           ARI1     FCO      Out     0.008     5.915 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCI      In      -         5.915 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           ARI1     FCO      Out     0.008     5.923 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     FCI      In      -         5.923 r      -         
+i_2.if_generate_plus\.mult1_un206_sum_s_6             ARI1     S        Out     0.300     6.223 r      -         
+i_2.if_generate_plus\.mult1_temp_b_31[2]              Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     C        In      -         6.817 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           CFG3     Y        Out     0.148     6.965 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_axb_1           Net      -        -       0.118     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     C        In      -         7.083 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           ARI1     FCO      Out     0.393     7.477 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCI      In      -         7.477 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           ARI1     FCO      Out     0.008     7.485 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_2           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCI      In      -         7.485 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           ARI1     FCO      Out     0.008     7.493 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_3           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCI      In      -         7.493 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           ARI1     FCO      Out     0.008     7.501 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_4           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCI      In      -         7.501 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           ARI1     FCO      Out     0.008     7.509 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_cry_5           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     FCI      In      -         7.509 r      -         
+i_2.if_generate_plus\.mult1_un213_sum_s_6             ARI1     S        Out     0.300     7.809 r      -         
+i_2.if_generate_plus\.mult1_temp_b_1[2]               Net      -        -       0.594     -            6         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     B        In      -         8.403 r      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           ARI1     FCO      Out     0.328     8.731 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_1           Net      -        -       0.000     -            1         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     FCI      In      -         8.731 f      -         
+i_2.if_generate_plus\.mult1_un220_sum_cry_2           ARI1     S        Out     0.300     9.031 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_ac0_4        Net      -        -       0.609     -            7         
+i_2.g0_7                                              CFG4     D        In      -         9.640 f      -         
+i_2.g0_7                                              CFG4     Y        Out     0.192     9.832 f      -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_c4_1_0_0     Net      -        -       0.124     -            2         
+i_2.g0_2                                              CFG4     D        In      -         9.956 f      -         
+i_2.g0_2                                              CFG4     Y        Out     0.232     10.188 r     -         
+i_2.if_generate_plus\.mult1_rem_adjust_0_0_0_1[5]     Net      -        -       0.118     -            1         
+i_2.g0_0                                              CFG4     B        In      -         10.306 r     -         
+i_2.g0_0                                              CFG4     Y        Out     0.083     10.389 r     -         
+i_2.N_17_i                                            Net      -        -       0.579     -            5         
+i_2.g0                                                CFG4     D        In      -         10.968 r     -         
+i_2.g0                                                CFG4     Y        Out     0.232     11.200 r     -         
+i_2[5]                                                Net      -        -       0.118     -            1         
+i[10]                                                 SLE      D        In      -         11.318 r     -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.318 is 5.628(49.7%) logic and 5.689(50.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 181MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 180MB peak: 181MB)
+
+---------------------------------------
+Resource Usage Report for sos_blinker 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          1 use
+CFG1           2 uses
+CFG2           7 uses
+CFG3           18 uses
+CFG4           25 uses
+
+Carry cells:
+ARI1            152 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            14 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 3
+I/O primitives: 3
+INBUF          2 uses
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    204
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  14 + 0 + 0 + 0 = 14;
+Total number of LUTs after P&R:  204 + 0 + 0 + 0 = 204;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 66MB peak: 181MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Wed Mar 27 15:37:50 2024
+
+###########################################################]

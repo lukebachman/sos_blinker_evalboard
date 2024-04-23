@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>sos_blinker</design>
+	<target_verilog>C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker.vm</target_verilog>
+</SynplifyOutput>

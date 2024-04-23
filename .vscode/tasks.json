@@ -1,0 +1,20 @@
+// tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile Verilog with QuestaSim",
+            "type": "shell",
+            "command": "C:/Microchip/Libero_SoC_v2024.1/QuestaSim/win64/vlog.exe",
+            "args": [
+                "C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v",
+                "C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

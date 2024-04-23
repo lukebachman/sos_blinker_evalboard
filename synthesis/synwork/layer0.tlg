@@ -1,0 +1,15 @@
+Selecting top level module sos_blinker
+@N: CG364 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":5:7:5:17|Synthesizing module sos_blinker in library work.
+Opening data file sos_blinker_pattern_seq_27692_initial_block from directory .
+@W: CG532 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":43:0:43:6|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on sos_blinker .......
+@W: CL118 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":92:7:92:10|Latch generated from always block for signal led; possible missing assignment in an if or case statement.
+Finished optimization stage 1 on sos_blinker (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 97MB)
+Running optimization stage 2 on sos_blinker .......
+Finished optimization stage 2 on sos_blinker (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\layer0.duruntime
+
+

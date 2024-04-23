@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Verilog_Projects/sos_blinker_evalboard
+vsos_blinker
+Z1 2C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+Z2 !s110 1713911768
+!i10b 1
+!s100 f]ODLk261LhVMV7NVN46G0
+IKZVAGOE_c3H7[?L;OP7YQ3
+R0
+w1713909528
+8C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+FC:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+!i122 27
+L0 5 136
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1713911768.000000
+!s107 C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v|C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+Z6 !s90 C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+vsos_blinker_tb
+R1
+R2
+!i10b 1
+!s100 __WhhI>z>o4Q>lkNGK1;F3
+IKmlF7k_;942A38K@B[70R3
+R0
+w1713911767
+8C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+FC:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+!i122 27
+L0 3 33
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v|C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+R6
+!i113 0
+R7
+R8

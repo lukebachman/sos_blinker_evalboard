@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Verilog_Projects/sos_blinker_evalboard/simulation
+vsos_blinker
+2C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+!s110 1712096003
+!i10b 1
+!s100 QN@B0O9kL25nLU[ENJN3K2
+IoT<;d4>]98VR0=^dLnza^2
+R0
+w1712095542
+8C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+FC:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+!i122 0
+L0 5 129
+VDg1SIo80bB@j0V0VzS_@n1
+OW;L;2023.4;77
+r1
+!s85 0
+31
+!s108 1712096003.000000
+!s107 C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+!s90 -reportprogress|300|-work|work|C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+!s101 -O0
+!i113 1
+o-work work -O0
+tCvgOpt 0

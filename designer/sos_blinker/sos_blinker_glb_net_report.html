@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <style>
+      body { font-family:arial; font-size:10pt; text-align:left; }
+      h1, h2 {
+          padding-top: 30px;
+      }
+      h3 {
+          padding-top: 20px;
+      }
+      h4, h5, h6 {
+          padding-top: 10px;
+          font-size:12pt;
+      }
+      table {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          border-collapse:collapse;
+      }
+      table th, table td {
+          font-family:arial; font-size:10pt; text-align:left;
+          border-color:#B0B0B0;
+          border-style:solid;
+          border-width:1px;
+          padding: 4px;
+      }
+     </style>
+    </head>
+    <body>
+        <h1 align="center">Global Net Report</h1>
+        <p>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</p>
+        <p>Date: Wed Apr  3 15:28:28 2024
+</p>
+        <h2>Global Nets Information</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> GB Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>I_1/U0</td>
+                <td>(1166, 162)</td>
+                <td>I_1/U0_Y</td>
+                <td>35</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>I/O to GB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> Port Name </th>
+                <th> Pin Number </th>
+                <th> I/O Function </th>
+                <th> From </th>
+                <th> From Location </th>
+                <th> To </th>
+                <th> Net Name </th>
+                <th> Net Type </th>
+                <th> Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>clk</td>
+                <td>E25</td>
+                <td>HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0</td>
+                <td>clk_ibuf/U_IOPAD:Y</td>
+                <td>(2256, 1)</td>
+                <td>I_1/U0</td>
+                <td>clk_ibuf/YIN</td>
+                <td>HARDWIRED</td>
+                <td>1</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Fabric to GB Connections</h2>
+        <p>(none)</p>
+        <h2>CCC to GB Connections</h2>
+        <p>(none)</p>
+        <h2>CCC Input Connections</h2>
+        <p>(none)</p>
+        <h2>Local Nets to RGB Connections</h2>
+        <p>(none)</p>
+        <h2>Global Nets to RGB Connections</h2>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> From Location </th>
+                <th> Net Name </th>
+                <th> Fanout </th>
+                <th/>
+                <th> RGB Location </th>
+                <th> Local Fanout </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>I_1/U0</td>
+                <td>(1166, 162)</td>
+                <td>I_1/U0_Y</td>
+                <td>35</td>
+                <td/>
+                <td>(1747, 14)</td>
+                <td>35</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Clock Signals Summary</h2>
+        <table cellpadding="4">
+            <tr/>
+            <tr>
+                <td>The number of clock signals through  H-Chip Global resources</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through     Row Global resources</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through  Sector Global resources</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>The number of clock signals through Cluster Global resources</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <p/>
+        <h2>Warning: Local Clock Nets</h2>
+        <p>The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing have less predictable amounts of clock jitter versus the dedicated global resources. Microchip recommends using clock input and clock generation paths that maximize the usage of dedicated global routing resources, as well as promoting these signals below to dedicated global resources. Refer to the PolarFire and PolarFire SoC Clocking Resources User Guide for more information
+</p>
+        <table cellpadding="4">
+            <tr>
+                <th/>
+                <th> From </th>
+                <th> Driving Net </th>
+                <th> To </th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>un1_counter_rst_1_sqmuxa_0:Y</td>
+                <td>un1_counter_rst_1_sqmuxa</td>
+                <td>led_Z:CLK</td>
+            </tr>
+        </table>
+    </body>
+</html>

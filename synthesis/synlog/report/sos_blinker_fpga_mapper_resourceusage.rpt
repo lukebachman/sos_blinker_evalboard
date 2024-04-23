@@ -1,0 +1,39 @@
+Resource Usage Report for sos_blinker 
+
+Mapping to part: mpf300tfcg1152-1
+Cell usage:
+CLKINT          1 use
+CFG1           6 uses
+CFG2           9 uses
+CFG3           18 uses
+CFG4           63 uses
+
+Carry cells:
+ARI1            246 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            36 uses
+
+DSP Blocks:    0 of 924 (0%)
+
+I/O ports: 3
+I/O primitives: 3
+INBUF          2 uses
+OUTBUF         1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    342
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K20  Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  36 + 0 + 0 + 0 = 36;
+Total number of LUTs after P&R:  342 + 0 + 0 + 0 = 342;
+

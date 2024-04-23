@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":5:7:5:17|Synthesizing module sos_blinker in library work.
+@N|Running in 64-bit mode
+

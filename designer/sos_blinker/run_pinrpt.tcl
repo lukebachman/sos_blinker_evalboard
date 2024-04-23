@@ -1,0 +1,11 @@
+DESIGN=sos_blinker
+DESDIR=C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker
+TARGET_DIR=C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker
+FAM=PolarFire
+DIE=PA5M300TS
+PACKAGE=fcg1152
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+PINRPT_BOARDLAYOUT=1
+BANK_REPORT=1
+IOREG_REPORT=1

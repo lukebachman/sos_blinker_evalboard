@@ -1,0 +1,64 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Verilog_Projects/sos_blinker_evalboard/simulation
+vsos_blinker
+2C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1713911791
+!i10b 1
+!s100 df<B=KX9l]azI=>UI_Tee2
+I8c5^UMVJ:DebIUOPjf^Nn1
+S1
+R0
+w1713909528
+8C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+FC:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
+!i122 208
+L0 5 136
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1713911791.000000
+!s107 C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+vsos_blinker_tb
+2C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+R1
+R2
+!i10b 1
+!s100 S<kBHakzJO7h;GYk8JEHO3
+I0cmzQHmNBW1KYFEgWdW9T1
+S1
+R0
+w1713911767
+8C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+FC:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
+!i122 209
+L0 3 33
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Verilog_Projects/sos_blinker_evalboard/stimulus|-sv|-work|presynth|C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+C:/Verilog_Projects/sos_blinker_evalboard/stimulus -sv -work presynth -O0
+R7

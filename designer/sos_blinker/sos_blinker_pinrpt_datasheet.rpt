@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+-Pin Report - Date: Wed Apr  3 15:28:53 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: sos_blinker
+-Family: PolarFire
+-Die: MPF300TS
+-Package: FCG1152
+-----------------------------------------------------------------
+
+Port |Pin |Fixed |Function                                                |Bank     |I/O Std   |Direction    |Used I/O Reg       |User I/O Lock Down |Clamp Diode   |Resistor Pull                     |Use I/O Calibration from the lane |Schmitt Trigger |Vcm Input Range    |On Die Termination |Odt Value (Ohm) |Input Delay |Slew              |Output Drive (mA) |Impedance (ohm)  |Output Load (pF)         |Source Termination (Ohm) |Output Delay |
+-----|----|------|--------------------------------------------------------|---------|----------|-------------|-------------------|-------------------|--------------|----------------------------------|----------------------------------|----------------|-------------------|-------------------|----------------|------------|------------------|------------------|-----------------|-------------------------|-------------------------|-------------|
+clk   E25  Yes    HSIO63PB6/CLKIN_S_12/CCC_SE_CLKIN_S_12/CCC_SE_PLL0_OUT0  Bank6     LVCMOS18   Input         None                No                  ON             Up                                 No                                 OFF              ---                 OFF                 120              OFF          ---                ---                ---               ---                       ---                       ---           
+led   C26  Yes    HSIO70NB6                                                Bank6     LVCMOS18   Output        None                No                  ON             None                               No                                 ---              ---                 ---                 120              ---          OFF                8                  ---               5                         ---                       OFF           
+rst   B27  Yes    HSIO69NB6                                                Bank6     LVCMOS18   Input         None                No                  ON             Up                                 No                                 OFF              ---                 OFF                 120              OFF          ---                ---                ---               ---                       ---                       ---           

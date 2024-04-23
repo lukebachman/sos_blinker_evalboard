@@ -1,0 +1,13 @@
+# Reading pref.tcl
+ls
+# .hdl-project                stimulus    wlftb69d7z  
+# .vscode                     synthesis   wlftcwth0i  
+# component                   tooldata    wlftk0f5ti  
+# constraint                  transcript  wlftk4xv87  
+# designer                    viewdraw    wlftm5rf0s  
+# hdl                         vsim.wlf    wlftmjaavw  
+# libero_setup_info.txt       wave.do     wlftr0za51  
+# presynth                    wlft254d17  wlfttzbzc8  
+# simulation                  wlft35jq0b  wlftykyj8m  
+# smartgen                    wlft4w4eqt  work        
+# sos_blinker_evalboard.prjx  wlftay6wq7              

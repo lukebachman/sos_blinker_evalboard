@@ -1,0 +1,2 @@
+SERNO,END_INSTANCE,END_CLOCK,START_CLOCK,START_INSTANCE,CDC_TYPE,SYNCHRONIZER,NUMBER_OF_SYNCHRONIZER_FFs,SAFE_CDC,DESCRIPTION
+1,led,sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock,sos_blinker|clk,state[2:0],Different Clock Domains,NO,0,NO,Combinatorial logic detected at clock domain crossing.

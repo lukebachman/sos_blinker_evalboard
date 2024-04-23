@@ -1,0 +1,21 @@
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: CAG-LT-C77522
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@I:: "C:\Verilog_Projects\sos_blinker_evalboard\synthesis\syntmp\genpkg30a24060"
+@I:: "syng0a24060"
+@I:: "C:\Verilog_Projects\sos_blinker_evalboard\synthesis\syntmp\gentmp30a24060"
+VHDL syntax check successful!

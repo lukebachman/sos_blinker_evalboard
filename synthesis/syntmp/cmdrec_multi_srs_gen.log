@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  sos_blinker  -multisrs  C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_comp.srs  -osyn  C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_mult.srs  -log  C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synlog\sos_blinker_multi_srs_gen.srr 
+relcom:..\..\..\..\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top sos_blinker -multisrs ..\synwork\sos_blinker_comp.srs -osyn ..\synwork\sos_blinker_mult.srs -log ..\synlog\sos_blinker_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\sos_blinker_comp.srs|io:i|time:1713905632|size:3861|exec:0|csum:0DB2BABEC59B3B09F8D0B9B66C0A01BE
+file:..\synwork\sos_blinker_mult.srs|io:o|time:1713905633|size:3598|exec:0|csum:
+file:..\synlog\sos_blinker_multi_srs_gen.srr|io:o|time:1713905633|size:1168|exec:0|csum:
+file:..\..\..\..\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

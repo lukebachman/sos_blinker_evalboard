@@ -1,0 +1,2 @@
+@E: CL172 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":13:4:13:14|Only one always block can assign a given variable counter_rst
+
