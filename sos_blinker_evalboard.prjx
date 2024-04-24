@@ -100,18 +100,18 @@ SIZE="1028"
 ENDFILE
 VALUE "<project>\hdl\sos_blinker.v,hdl"
 STATE="utd"
-TIME="1713909528"
-SIZE="5590"
+TIME="1713999128"
+SIZE="5594"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1712184740"
-SIZE="1838"
+TIME="1713908701"
+SIZE="754"
 ENDFILE
 VALUE "<project>\simulation\simulate.do,do"
 STATE="utd"
-TIME="1713909820"
-SIZE="1883"
+TIME="1713910938"
+SIZE="1844"
 ENDFILE
 VALUE "<project>\simulation\wave.do,do"
 STATE="utd"
@@ -120,27 +120,27 @@ SIZE="1139"
 ENDFILE
 VALUE "<project>\stimulus\sos_blinker_tb.v,tb_hdl"
 STATE="utd"
-TIME="1713911767"
+TIME="1713998848"
 SIZE="649"
 ENDFILE
 VALUE "<project>\synthesis\sos_blinker.so,so"
 STATE="utd"
-TIME="1712771641"
+TIME="1713997332"
 SIZE="238"
 ENDFILE
 VALUE "<project>\synthesis\sos_blinker.vm,syn_vm"
 STATE="ood"
-TIME="1712771640"
-SIZE="172566"
+TIME="1713997331"
+SIZE="172382"
 ENDFILE
 VALUE "<project>\synthesis\sos_blinker_syn.prj,prj"
 STATE="utd"
-TIME="1712771641"
+TIME="1713997332"
 SIZE="3018"
 ENDFILE
 VALUE "<project>\synthesis\sos_blinker_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1712771640"
+TIME="1713997331"
 SIZE="1487"
 ENDFILE
 ENDLIST
@@ -256,7 +256,7 @@ NAME="ModelSim ME Pro"
 FUNCTION="Simulation"
 TOOL="ModelSim Pro Edition"
 LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
-PARAM=" -l sos_blinker_tb_presynth_simulation.log "
+PARAM=""
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -298,13 +298,9 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;synthesis:synplify.log
-HDL;hdl\sos_blinker.v;0
-HDL;constraint\io\constraint.pdc;0
-HDL;stimulus\sos_blinker_tb.v;0
-Constraint Manager;Constraint Manager;0
+ReportsCurrentItem;Run Programming Action:sos_blinker_PROGRAM.log
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\sos_blinker.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "PF_CCC_C0::work","component\work\PF_CCC_C0\PF_CCC_C0.v","TRUE","FALSE"

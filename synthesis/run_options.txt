@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version V-2023.09M
 #--  Project file C:\Verilog_Projects\sos_blinker_evalboard\synthesis\run_options.txt
-#--  Written on Tue Apr 23 13:53:50 2024
+#--  Written on Wed Apr 24 15:53:27 2024
 
 
 #project files

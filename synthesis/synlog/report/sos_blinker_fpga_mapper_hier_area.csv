@@ -1,3 +1,3 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
-. sos_blinker, 36, 96, 246, 0, 0, 0, 0, 1, 3
+. sos_blinker, 13, 54, 220, 0, 0, 0, 0, 1, 3

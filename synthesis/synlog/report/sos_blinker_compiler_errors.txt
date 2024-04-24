@@ -1,2 +1,2 @@
-@E: CL172 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":13:4:13:14|Only one always block can assign a given variable counter_rst
+@E: CL123 :"C:\Verilog_Projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|Logic for state[2:0] does not match a standard flip-flop
 

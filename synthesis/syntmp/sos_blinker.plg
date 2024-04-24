@@ -1,16 +1,16 @@
-@P:  Worst Slack : -32.333
-@P:  sos_blinker|clk - Estimated Frequency : 23.6 MHz
+@P:  Worst Slack : -32.748
+@P:  sos_blinker|clk - Estimated Frequency : 23.4 MHz
 @P:  sos_blinker|clk - Requested Frequency : 100.0 MHz
-@P:  sos_blinker|clk - Estimated Period : 42.333
+@P:  sos_blinker|clk - Estimated Period : 42.748
 @P:  sos_blinker|clk - Requested Period : 10.000
-@P:  sos_blinker|clk - Slack : -32.333
-@P:  sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock - Estimated Frequency : NA
-@P:  sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock - Estimated Period : NA
-@P:  sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock - Requested Period : 10.000
-@P:  sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock - Slack : NA
+@P:  sos_blinker|clk - Slack : -32.748
+@P:  sos_blinker|un1_led4_1_inferred_clock - Estimated Frequency : NA
+@P:  sos_blinker|un1_led4_1_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  sos_blinker|un1_led4_1_inferred_clock - Estimated Period : NA
+@P:  sos_blinker|un1_led4_1_inferred_clock - Requested Period : 10.000
+@P:  sos_blinker|un1_led4_1_inferred_clock - Slack : NA
 @P: sos_blinker Part : mpf300tfcg1152-1
-@P: sos_blinker Register bits  : 36 
+@P: sos_blinker Register bits  : 13 
 @P: sos_blinker DSP Blocks  : 0
 @P: sos_blinker I/O primitives : 3
 @P:  CPU Time : 0h:00m:02s

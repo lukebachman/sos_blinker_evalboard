@@ -1,4 +1,4 @@
-# Tue Apr 23 13:53:54 2024
+# Wed Apr 24 15:53:29 2024
 
 
 Copyright (C) 1994-2023 Synopsys, Inc.
@@ -19,7 +19,7 @@ Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Bui
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 201MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 201MB)
 
 Reading constraint file: C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker\synthesis.fdc
 @L: C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker_scck.rpt 
@@ -33,7 +33,7 @@ See clock summary report "C:\Verilog_Projects\sos_blinker_evalboard\synthesis\so
 Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 201MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 201MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 201MB)
 
 
 Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 201MB)
@@ -41,10 +41,11 @@ Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 
 Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 201MB)
 
-
-Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
 NConnInternalConnection caching is on
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":92:7:92:10|User-specified initial value defined for instance led is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|User-specified initial value defined for instance counter[2:0] is being ignored due to limitations in architecture. 
 @W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|User-specified initial value defined for instance i[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|User-specified initial value defined for instance state[2:0] is being ignored due to limitations in architecture. 
 
 Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 249MB)
 
@@ -60,36 +61,36 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: FP130 |Promoting Net clk on CLKINT  I_1 
 @N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist sos_blinker 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
 
 
 
 Clock Summary
 ******************
 
-          Start                                                   Requested     Requested     Clock        Clock          Clock
-Level     Clock                                                   Frequency     Period        Type         Group          Load 
--------------------------------------------------------------------------------------------------------------------------------
-0 -       sos_blinker|clk                                         100.0 MHz     10.000        inferred     (multiple)     61   
-                                                                                                                               
-0 -       sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
-===============================================================================================================================
+          Start                                     Requested     Requested     Clock        Clock          Clock
+Level     Clock                                     Frequency     Period        Type         Group          Load 
+-----------------------------------------------------------------------------------------------------------------
+0 -       sos_blinker|clk                           100.0 MHz     10.000        inferred     (multiple)     38   
+                                                                                                                 
+0 -       sos_blinker|un1_led4_1_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+=================================================================================================================
 
 
 
 Clock Load Summary
 ***********************
 
-                                                        Clock     Source                               Clock Pin        Non-clock Pin     Non-clock Pin                       
-Clock                                                   Load      Pin                                  Seq Example      Seq Example       Comb Example                        
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-sos_blinker|clk                                         61        clk(port)                            state[2:0].C     -                 I_1.A(CLKINT)                       
-                                                                                                                                                                              
-sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock     1         un1_counter_rst_1_sqmuxa.OUT(or)     led.C            -                 un1_counter_rst_1_sqmuxa_1.I[0](inv)
-==============================================================================================================================================================================
+                                          Clock     Source                 Clock Pin        Non-clock Pin     Non-clock Pin       
+Clock                                     Load      Pin                    Seq Example      Seq Example       Comb Example        
+----------------------------------------------------------------------------------------------------------------------------------
+sos_blinker|clk                           38        clk(port)              state[2:0].C     -                 I_1.A(CLKINT)       
+                                                                                                                                  
+sos_blinker|un1_led4_1_inferred_clock     1         un1_led4_1.OUT(or)     led.C            -                 un1_led4_2.I[0](inv)
+==================================================================================================================================
 
-@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|Found inferred clock sos_blinker|clk which controls 61 sequential elements including counter[25:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":92:7:92:10|Found inferred clock sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock which controls 1 sequential elements including led. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":75:0:75:5|Found inferred clock sos_blinker|clk which controls 38 sequential elements including counter[2:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\verilog_projects\sos_blinker_evalboard\hdl\sos_blinker.v":92:7:92:10|Found inferred clock sos_blinker|un1_led4_1_inferred_clock which controls 1 sequential elements including led. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
 Finished Pre Mapping Phase.
@@ -108,6 +109,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 168MB peak: 253MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Apr 23 13:53:55 2024
+# Wed Apr 24 15:53:30 2024
 
 ###########################################################]

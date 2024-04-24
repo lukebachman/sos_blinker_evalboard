@@ -12,23 +12,23 @@ Z0 dC:/Verilog_Projects/sos_blinker_evalboard/simulation
 vsos_blinker
 2C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1713911791
+Z2 !s110 1713999272
 !i10b 1
-!s100 df<B=KX9l]azI=>UI_Tee2
-I8c5^UMVJ:DebIUOPjf^Nn1
+!s100 6hm`A3zDO][g=4gG`RAiQ0
+I62J5`U`fZUUUKT@JnPn<F2
 S1
 R0
-w1713909528
+w1713999265
 8C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
 FC:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v
-!i122 208
+!i122 244
 L0 5 136
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 OW;L;2023.4;77
 r1
 !s85 0
 31
-Z5 !s108 1713911791.000000
+Z5 !s108 1713999272.000000
 !s107 C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
 !s90 -reportprogress|300|-sv|-work|presynth|C:/Verilog_Projects/sos_blinker_evalboard/hdl/sos_blinker.v|
 !s101 -O0
@@ -40,14 +40,14 @@ vsos_blinker_tb
 R1
 R2
 !i10b 1
-!s100 S<kBHakzJO7h;GYk8JEHO3
-I0cmzQHmNBW1KYFEgWdW9T1
+!s100 FZKoPh_Q@ISba=fzmk1I`1
+Im@2]N8Za<fU4^=`3Zi7Sm0
 S1
 R0
-w1713911767
+w1713999268
 8C:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
 FC:/Verilog_Projects/sos_blinker_evalboard/stimulus/sos_blinker_tb.v
-!i122 209
+!i122 245
 L0 3 33
 R3
 R4

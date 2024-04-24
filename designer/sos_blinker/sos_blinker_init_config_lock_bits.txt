@@ -1,6 +1,6 @@
 ;----------------------------------------------------------------------------------
 ; Register Lock Bits Configuration File for peripheral blocks
-; Date:    Wed Apr  3 15:28:58 2024
+; Date:    Wed Apr 24 15:33:25 2024
 ; Version: 2024.1 2024.1.0.3
 ; Design:  sos_blinker
 ; Family:  PolarFire

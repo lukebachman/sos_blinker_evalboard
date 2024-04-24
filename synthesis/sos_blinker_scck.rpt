@@ -12,7 +12,7 @@ Hostname: CAG-LT-C77522
 
 Implementation : synthesis
 
-# Written on Tue Apr 23 13:53:54 2024
+# Written on Wed Apr 24 15:53:29 2024
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      "C:\Verilog_Projects\sos_blinker_evalboard\designer\sos_blinker\synthesis.fdc"
@@ -29,22 +29,22 @@ No issues found in constraint syntax.
 Clock Summary
 *************
 
-          Start                                                   Requested     Requested     Clock        Clock          Clock
-Level     Clock                                                   Frequency     Period        Type         Group          Load 
--------------------------------------------------------------------------------------------------------------------------------
-0 -       sos_blinker|clk                                         100.0 MHz     10.000        inferred     (multiple)     61   
-                                                                                                                               
-0 -       sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
-===============================================================================================================================
+          Start                                     Requested     Requested     Clock        Clock          Clock
+Level     Clock                                     Frequency     Period        Type         Group          Load 
+-----------------------------------------------------------------------------------------------------------------
+0 -       sos_blinker|clk                           100.0 MHz     10.000        inferred     (multiple)     38   
+                                                                                                                 
+0 -       sos_blinker|un1_led4_1_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+=================================================================================================================
 
 
 Clock Load Summary
 ******************
 
-                                                        Clock     Source                               Clock Pin        Non-clock Pin     Non-clock Pin                       
-Clock                                                   Load      Pin                                  Seq Example      Seq Example       Comb Example                        
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-sos_blinker|clk                                         61        clk(port)                            state[2:0].C     -                 I_1.A(CLKINT)                       
-                                                                                                                                                                              
-sos_blinker|un1_counter_rst_1_sqmuxa_inferred_clock     1         un1_counter_rst_1_sqmuxa.OUT(or)     led.C            -                 un1_counter_rst_1_sqmuxa_1.I[0](inv)
-==============================================================================================================================================================================
+                                          Clock     Source                 Clock Pin        Non-clock Pin     Non-clock Pin       
+Clock                                     Load      Pin                    Seq Example      Seq Example       Comb Example        
+----------------------------------------------------------------------------------------------------------------------------------
+sos_blinker|clk                           38        clk(port)              state[2:0].C     -                 I_1.A(CLKINT)       
+                                                                                                                                  
+sos_blinker|un1_led4_1_inferred_clock     1         un1_led4_1.OUT(or)     led.C            -                 un1_led4_2.I[0](inv)
+==================================================================================================================================

@@ -6,12 +6,12 @@ module sos_blinker(clk, rst, led);
 
 input wire clk;                 // 50MHz Source Clock
 input wire rst;                 // Active-high asynchronous reset
-output reg led;                 // Output LED
+output reg led = 0;             // Output LED
 
 // Signal declarations
-reg [25:0] counter;             // 50MHz in Binary number is (26 digits)
+reg [25:0] counter = 0;         // 50MHz in Binary number is (26 digits)
 reg [1:0] counter_rst = 1;      // Resets counter (intialize at 1)
-reg [2:0] state;
+reg [2:0] state = 0;
 reg [2:0] pattern_seq [20:0];   // Stores pattern sequence      (Modify bit size to fit your pattern) ***
 parameter w = 21;               // This allows pattern to loop  (Modify to match bit size of pattern_seq) ***
 integer i = 0;                  // Index for Pattern
@@ -26,17 +26,17 @@ parameter off_one = 3'b100;     // LED OFF 1 second
 // Delay Declarations
 // Number of Clock Cycles = Delay Time (in seconds) * Clock Frequency (in Hz)
 
-
+/*
 parameter quarter_sec = 12_500_000;      // 12_500_000 for 0.25 sec (0.25 sec * 50,000,000 Hz)
 parameter half_sec = 25_000_000;         // 25_000_000 for 0.5 sec  (0.5 sec * 50,000,000 Hz)
 parameter one_sec = 50_000_000;          // 50_000_000 for 1 sec    (1 sec * 50,000,000 Hz)
+*/
 
-/*
 // For testing purposes
 parameter quarter_sec = 5;      // 12_500_000 for 0.25 sec (0.25 sec * 50,000,000 Hz)
 parameter half_sec = 5;         // 25_000_000 for 0.5 sec  (0.5 sec * 50,000,000 Hz)
 parameter one_sec = 5;          // 50_000_000 for 1 sec    (1 sec * 50,000,000 Hz)
-*/
+
 
 // Create the pattern sequence you want here ***
 // This creates an SOS_Pattern in morse code
@@ -72,8 +72,8 @@ initial begin
 end
 
 // Asynchronous reset and state machine logic (Sequential Logic Block)
-always @(posedge clk or posedge rst) begin
-    if (rst == 1'b1) begin
+always @(posedge clk or negedge rst) begin              // Trigger on the negative edge of rst
+    if (~rst) begin                                     // Check for active-low reset
         state <= pattern_seq[0];
         i <= 0;
         counter <= 0;

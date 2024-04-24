@@ -24,7 +24,7 @@ initial begin
     // Wait for 100 ns for global reset to finish
     #100;
     
-    rst = 0; // De-assert the reset signal
+    rst = 1; // De-assert the reset signal
 
 end
 

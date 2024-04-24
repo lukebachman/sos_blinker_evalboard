@@ -22,7 +22,7 @@
 Starting:    C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
 Hostname:    CAG-LT-C77522
-Date:        Tue Apr  9 15:16:46 2024
+Date:        Wed Apr 24 15:52:15 2024
 Version:     V-2023.09M
 
 Arguments:   -product synplify_base -licensetype synplifypro_actel -batch -log synplify.log sos_blinker_syn.tcl
@@ -46,58 +46,29 @@ Running: synthesis in foreground
 Running sos_blinker_syn|synthesis
 
 Running Flow: compile (Compile) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:46 2024
+# Wed Apr 24 15:52:15 2024
 
 Running Flow: compile_flow (Compile Process) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:46 2024
+# Wed Apr 24 15:52:15 2024
 
 Running: compiler (Compile Input) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:46 2024
-Copied C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_comp.srs to C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker.srs
+# Wed Apr 24 15:52:15 2024
+compiler exited with errors
+Job failed on: sos_blinker_syn|synthesis
 
-compiler completed
-# Tue Apr  9 15:16:49 2024
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synlog\sos_blinker_compiler.srr"
+# Wed Apr 24 15:52:15 2024
 
-Return Code: 0
-Run Time:00h:00m:01s
-
-Running: multi_srs_gen (Multi-srs Generator) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:49 2024
-
-multi_srs_gen completed
-# Tue Apr  9 15:16:49 2024
-
-Return Code: 0
+Return Code: 2
 Run Time:00h:00m:00s
-Copied C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_mult.srs to C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker.srs
 Complete: Compile Process on sos_blinker_syn|synthesis
-
-Running: premap (Premap) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:49 2024
-
-premap completed with warnings
-# Tue Apr  9 15:16:51 2024
-
-Return Code: 1
-Run Time:00h:00m:02s
 Complete: Compile on sos_blinker_syn|synthesis
-
-Running Flow: map (Map) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:51 2024
-License granted for 4 parallel jobs
-
-Running: fpga_mapper (Map & Optimize) on sos_blinker_syn|synthesis
-# Tue Apr  9 15:16:51 2024
-Copied C:\Verilog_Projects\sos_blinker_evalboard\synthesis\synwork\sos_blinker_m.srm to C:\Verilog_Projects\sos_blinker_evalboard\synthesis\sos_blinker.srm
-
-fpga_mapper completed with warnings
-# Tue Apr  9 15:16:57 2024
-
-Return Code: 1
-Run Time:00h:00m:06s
-Complete: Map on sos_blinker_syn|synthesis
 Complete: Logic Synthesis on sos_blinker_syn|synthesis
+Error: At line 2 while processing "sos_blinker_syn.tcl"
+2
 TCL script complete: "sos_blinker_syn.tcl"
-exit status=0
-exit status=0
+TCL script had errors: "sos_blinker_syn.tcl"
+exit status=9
+exit status=9
 License checkin: synplifypro_actel

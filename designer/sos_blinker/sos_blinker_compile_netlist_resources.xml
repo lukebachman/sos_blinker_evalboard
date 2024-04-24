@@ -3,7 +3,7 @@
 <doc>
 <title>Compile Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Tue Apr 23 13:54:08 2024
+<text>Date: Wed Apr 24 15:53:41 2024
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -74,15 +74,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>342</cell>
+ <cell>275</cell>
  <cell>299544</cell>
- <cell>0.11</cell>
+ <cell>0.09</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>36</cell>
+ <cell>13</cell>
  <cell>299544</cell>
- <cell>0.01</cell>
+ <cell>0.00</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -166,8 +166,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>342</cell>
- <cell>36</cell>
+ <cell>275</cell>
+ <cell>13</cell>
 </row>
 <row>
  <cell>uSRAM Interface Logic</cell>
@@ -186,8 +186,8 @@
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>342</cell>
- <cell>36</cell>
+ <cell>275</cell>
+ <cell>13</cell>
 </row>
 </table>
 <section><name>Detailed Carry Chains Resource Usage</name></section>
@@ -203,16 +203,12 @@
  <cell>27</cell>
 </row>
 <row>
- <cell>26</cell>
- <cell>1</cell>
-</row>
-<row>
  <cell>33</cell>
  <cell>1</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>29</cell>
+ <cell>28</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -262,7 +258,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>35</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
  <cell>Net   : NN_1</cell>
 </row>
@@ -295,22 +291,12 @@
 <row>
  <cell>35</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rst_c</cell>
+ <cell>Net   : if_generate_plus.mult1_inf_abs1_s_0_199_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rst_ibuf</cell>
-</row>
-<row>
- <cell>35</cell>
- <cell>INT_NET</cell>
- <cell>Net   : if_generate_plus.mult1_inf_abs1_s_0_230_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_230</cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_199</cell>
 </row>
 <row>
  <cell>28</cell>
@@ -343,44 +329,24 @@
  <cell>Driver: un2_i_ac0_7_1</cell>
 </row>
 <row>
- <cell>21</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : counter_rst_iv_0_Z[0]</cell>
+ <cell>Net   : counter_rst_f0_0_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: counter_rst_iv_0[0]</cell>
+ <cell>Driver: counter_rst_f0_0[0]</cell>
 </row>
 <row>
- <cell>21</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : N_11_i</cell>
+ <cell>Net   : rst_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: counter_rst_0_sqmuxa_1_i_a3_RNIKCNSG</cell>
-</row>
-<row>
- <cell>21</cell>
- <cell>INT_NET</cell>
- <cell>Net   : N_13_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: counter_rst_0_sqmuxa_1_i_a3_RNIKCNSG_0</cell>
-</row>
-<row>
- <cell>9</cell>
- <cell>INT_NET</cell>
- <cell>Net   : counter_rst_i_i[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: counter_rst_iv_0_RNILVCN71[0]</cell>
+ <cell>Driver: rst_ibuf</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -391,6 +357,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: i[2]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : if_generate_plus.mult1_un220_sum_s_6_S</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_un220_sum_cry_0</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : i_2_if_generate_plus_mult1_un220_sum</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_199</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : i_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i[0]</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -403,22 +399,12 @@
 <row>
  <cell>35</cell>
  <cell>INT_NET</cell>
- <cell>Net   : rst_c</cell>
+ <cell>Net   : if_generate_plus.mult1_inf_abs1_s_0_199_Y</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: rst_ibuf</cell>
-</row>
-<row>
- <cell>35</cell>
- <cell>INT_NET</cell>
- <cell>Net   : if_generate_plus.mult1_inf_abs1_s_0_230_Y</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_230</cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_199</cell>
 </row>
 <row>
  <cell>28</cell>
@@ -451,44 +437,24 @@
  <cell>Driver: un2_i_ac0_7_1</cell>
 </row>
 <row>
- <cell>21</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : counter_rst_iv_0_Z[0]</cell>
+ <cell>Net   : counter_rst_f0_0_Z[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: counter_rst_iv_0[0]</cell>
+ <cell>Driver: counter_rst_f0_0[0]</cell>
 </row>
 <row>
- <cell>21</cell>
+ <cell>12</cell>
  <cell>INT_NET</cell>
- <cell>Net   : N_11_i</cell>
+ <cell>Net   : rst_c</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: counter_rst_0_sqmuxa_1_i_a3_RNIKCNSG</cell>
-</row>
-<row>
- <cell>21</cell>
- <cell>INT_NET</cell>
- <cell>Net   : N_13_i</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: counter_rst_0_sqmuxa_1_i_a3_RNIKCNSG_0</cell>
-</row>
-<row>
- <cell>9</cell>
- <cell>INT_NET</cell>
- <cell>Net   : counter_rst_i_i[0]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: counter_rst_iv_0_RNILVCN71[0]</cell>
+ <cell>Driver: rst_ibuf</cell>
 </row>
 <row>
  <cell>8</cell>
@@ -499,6 +465,36 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: i[2]</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : if_generate_plus.mult1_un220_sum_s_6_S</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_un220_sum_cry_0</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : i_2_if_generate_plus_mult1_un220_sum</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i_2.if_generate_plus.mult1_inf_abs1_s_0_199</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : i_Z[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: i[0]</cell>
 </row>
 </table>
 </doc>

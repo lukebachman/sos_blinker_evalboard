@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)</text>
-<text>Date: Wed Apr  3 15:28:28 2024
+<text>Date: Wed Apr 24 15:32:54 2024
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -116,7 +116,7 @@
 </row>
 <row>
  <cell>The number of clock signals through Cluster Global resources</cell>
- <cell>5</cell>
+ <cell>6</cell>
 </row>
 </table>
 <text></text>
